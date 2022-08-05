@@ -12,4 +12,11 @@
 
           } 
       }
+  
+      jQuery(document).ready(function($) { 
+         var delay = 500; setTimeout(function() { 
+         $('.elementor-tab-title').removeClass('elementor-active');
+         $('.elementor-tab-content').css('display', 'block'); }, delay); 
+      }); 
+  
   });
